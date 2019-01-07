@@ -33,7 +33,7 @@ Zookeeper 为分布式应用提供了高效且可靠的分布式协调服务（�
 
      * __版本__：Zookeeper的每个ZNode上都会存储数据，对于每个Znode，Zookeeper都会为其维护一个Stat的数据结构，Stat中记录了这个ZNode的__三个数据版本__ version（当前ZNode的版本）、cversion(当前ZNode子节点的版本)和aversion（当前ZNode的ACL版本）
 
-     * __Watcher（时间监听器）__Zookeeper允许用户在指定节点注册Watcher，当一些特定的事件触发时，Zookeeper服务端会将事件通知到感兴趣的客户端上去。
+     * __Watcher__（时间监听器）__Zookeeper允许用户在指定节点注册Watcher，当一些特定的事件触发时，Zookeeper服务端会将事件通知到感兴趣的客户端上去。
 
      * __ACL(Access Control Lists: 访问控制列表)__：5类权限：
 
